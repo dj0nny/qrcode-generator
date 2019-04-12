@@ -1,25 +1,21 @@
 <template>
   <v-flex xs12>
-    {{ QRsrc }}    
+    <v-divider></v-divider>
+    <img :src="QRCodelink" />   
   </v-flex>
 </template>
 
 <script>
-import API from '@/lib/API'
 
 export default {
   name: 'QRCode',
-  data:() => ({
-    QRsrc: ''
-  }),
-  props: ['payload'],
-  mounted() {
-    this.QRsrc = API.generateQRCode(this.payload)
-    console.log(this.QRsrc)
-  }
+  props: ['QRCodelink']
 }
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+  .v-divider {
+    margin-top: 20px;
+    margin-bottom: 20px
+  }
 </style>

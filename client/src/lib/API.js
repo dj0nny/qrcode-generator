@@ -1,9 +1,9 @@
-const API_URL = ' https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=';
-import axios from 'axios'
+const API_URL = 'http://localhost:4040/generate-qr?data=';
+import axios from 'axios';
 
 export default {
   async generateQRCode(payload) {
-    const res = await axios.get(API_URL + payload);
-    return res;
+    const res = await axios.get(API_URL + payload)
+    return res.data
   }
 } 

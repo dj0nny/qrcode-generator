@@ -2,12 +2,14 @@
   "name": "qrcode-generator",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:4040",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
     "@mdi/font": "^2.6.95",
+    "axios": "^0.18.0",
     "roboto-fontface": "*",
     "vue": "^2.6.6",
     "vuetify": "^1.5.5"
