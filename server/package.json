@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Backend app for qrcode-generator project",
+  "main": "app.js",
+  "repository": "https://github.com/dj0nny/qrcode-generator",
+  "author": "dj0nny",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  }
+}
