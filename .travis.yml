@@ -10,8 +10,6 @@ branches:
   only:
   - develop
 
-before_script:
-  - cd client\
-
 script:
+  - cd client
   - yarn run deploy
