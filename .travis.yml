@@ -12,4 +12,4 @@ branches:
 
 script:
   - cd client
-  - yarn run deploy
+  - yarn run build
