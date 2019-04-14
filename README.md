@@ -1,5 +1,8 @@
 # qrcode-generator
 
+[![Build Status](https://travis-ci.org/dj0nny/qrcode-generator.svg?branch=develop)](https://travis-ci.org/dj0nny/qrcode-generator)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+
 > QR code generator developed using Vue.js and Express
 
 ## Getting Started
